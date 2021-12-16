@@ -1,0 +1,56 @@
+name: picsta
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_statusbarcolor_ns: ^0.4.0
+  image_picker: ^0.8.4+4
+  font_awesome_flutter: ^9.2.0
+  image_cropper: ^1.4.1
+  path_provider: ^2.0.1
+  provider: ^6.0.1
+  eva_icons_flutter: ^3.0.2
+  image_gallery_saver: ^1.7.1
+  fluttertoast: ^8.0.8
+  share_plus: ^3.0.4
+  themed: ^2.4.0
+  pinch_zoom: ^1.0.0
+  screenshot: ^1.2.3
+
+dev_dependencies:
+  flutter_native_splash: ^1.3.2
+  flutter_test:
+    sdk: flutter
+flutter:
+  fonts:
+    - family: Shalimar-Regular
+      fonts:
+        - asset: fonts/Shalimar-Regular.ttf
+          style: italic
+          weight: 600
+    - family: Pacifico-Regular
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+          weight: 600
+    - family: Recursive_Monospace-SemiBold
+      fonts:
+        - asset: fonts/Recursive_Monospace-SemiBold.ttf
+          weight: 600
+    - family: MavenPro-SemiBold
+      fonts:
+        - asset: fonts/MavenPro-SemiBold.ttf
+          weight: 600
+
+  uses-material-design: true
+  assets:
+    - images/
+    - assets/
